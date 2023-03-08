@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Cpp_project_again" Database="" Version="10000">
-  <Project Name="Project1" Path="Section1/Section1.project" Active="No"/>
-  <Project Name="Project2" Path="Section2/Section2.project" Active="No"/>
   <Project Name="Project3" Path="Project3/Project3.project" Active="No"/>
   <Project Name="Project4" Path="Project4/Project4.project" Active="No"/>
   <Project Name="Project5" Path="Project5/Project5.project" Active="No"/>
@@ -9,7 +7,40 @@
   <Project Name="Project7" Path="Project7/Project7.project" Active="No"/>
   <Project Name="Project8" Path="Project8/Project8.project" Active="No"/>
   <Project Name="Project9" Path="Project9/Project9.project" Active="No"/>
-  <Project Name="Project10" Path="Project10/Project10.project" Active="Yes"/>
+  <Project Name="Project10" Path="Project10/Project10.project" Active="No"/>
+  <Project Name="Project11" Path="Project11/Project11.project" Active="No"/>
+  <Project Name="Project12" Path="Project12/Project12.project" Active="No"/>
+  <Project Name="Project13" Path="Project13/Project13.project" Active="No"/>
+  <Project Name="project14" Path="project14/project14.project" Active="No"/>
+  <Project Name="Project15" Path="Project15/Project15.project" Active="No"/>
+  <Project Name="project16" Path="project16/project16.project" Active="No"/>
+  <Project Name="Project17" Path="Project17/Project17.project" Active="No"/>
+  <Project Name="Project18" Path="Project18/Project18.project" Active="No"/>
+  <Project Name="Project19" Path="Project19/Project19.project" Active="No"/>
+  <Project Name="Project20" Path="Project20/Project20.project" Active="No"/>
+  <Project Name="Project21" Path="Project21/Project21.project" Active="No"/>
+  <Project Name="Project22" Path="Project22/Project22.project" Active="No"/>
+  <Project Name="Project23" Path="Project23/Project23.project" Active="No"/>
+  <Project Name="Project24" Path="project24/project24.project" Active="No"/>
+  <Project Name="Project25" Path="Project25/Project25.project" Active="No"/>
+  <Project Name="Project26" Path="Project26/Project26.project" Active="No"/>
+  <Project Name="Project26" Path="Project26/Project26.project" Active="No"/>
+  <Project Name="Project27" Path="Project27/Project27.project" Active="No"/>
+  <Project Name="Project28" Path="Project28/Project28.project" Active="No"/>
+  <Project Name="Project29" Path="Project29/Project29.project" Active="No"/>
+  <Project Name="Project30" Path="Project30/Project30.project" Active="No"/>
+  <Project Name="Project31" Path="Project31/Project31.project" Active="No"/>
+  <Project Name="Project32" Path="Project32/Project32.project" Active="No"/>
+  <Project Name="Project32" Path="Project32/Project32.project" Active="No"/>
+  <Project Name="Project33" Path="Project33/Project33.project" Active="No"/>
+  <Project Name="Project34" Path="Project34/Project34.project" Active="No"/>
+  <Project Name="Project35" Path="Project35/Project35.project" Active="No"/>
+  <Project Name="Project36" Path="Project36/Project36.project" Active="No"/>
+  <Project Name="Project37" Path="Project37/Project37.project" Active="No"/>
+  <Project Name="Project38" Path="Project38/Project38.project" Active="No"/>
+  <Project Name="Project39" Path="Project39/Project39.project" Active="No"/>
+  <Project Name="Project40" Path="Project40/Project40.project" Active="No"/>
+  <Project Name="Project41" Path="Project41/Project41.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -23,6 +54,39 @@
       <Project Name="Project8" ConfigName="Debug"/>
       <Project Name="Project9" ConfigName="Debug"/>
       <Project Name="Project10" ConfigName="Debug"/>
+      <Project Name="Project11" ConfigName="Debug"/>
+      <Project Name="Project12" ConfigName="Debug"/>
+      <Project Name="Project13" ConfigName="Debug"/>
+      <Project Name="project14" ConfigName="Debug"/>
+      <Project Name="Project15" ConfigName="Debug"/>
+      <Project Name="project16" ConfigName="Debug"/>
+      <Project Name="Project17" ConfigName="Debug"/>
+      <Project Name="Project18" ConfigName="Debug"/>
+      <Project Name="Project19" ConfigName="Debug"/>
+      <Project Name="Project20" ConfigName="Debug"/>
+      <Project Name="Project21" ConfigName="Debug"/>
+      <Project Name="Project22" ConfigName="Debug"/>
+      <Project Name="Project23" ConfigName="Debug"/>
+      <Project Name="Project24" ConfigName="Debug"/>
+      <Project Name="Project25" ConfigName="Debug"/>
+      <Project Name="Project26" ConfigName="Debug"/>
+      <Project Name="Project26" ConfigName="Debug"/>
+      <Project Name="Project27" ConfigName="Debug"/>
+      <Project Name="Project28" ConfigName="Debug"/>
+      <Project Name="Project29" ConfigName="Debug"/>
+      <Project Name="Project30" ConfigName="Debug"/>
+      <Project Name="Project31" ConfigName="Debug"/>
+      <Project Name="Project32" ConfigName="Debug"/>
+      <Project Name="Project32" ConfigName="Debug"/>
+      <Project Name="Project33" ConfigName="Debug"/>
+      <Project Name="Project34" ConfigName="Debug"/>
+      <Project Name="Project35" ConfigName="Debug"/>
+      <Project Name="Project36" ConfigName="Debug"/>
+      <Project Name="Project37" ConfigName="Debug"/>
+      <Project Name="Project38" ConfigName="Debug"/>
+      <Project Name="Project39" ConfigName="Debug"/>
+      <Project Name="Project40" ConfigName="Debug"/>
+      <Project Name="Project41" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -36,6 +100,39 @@
       <Project Name="Project8" ConfigName="Release"/>
       <Project Name="Project9" ConfigName="Release"/>
       <Project Name="Project10" ConfigName="Release"/>
+      <Project Name="Project11" ConfigName="Release"/>
+      <Project Name="Project12" ConfigName="Release"/>
+      <Project Name="Project13" ConfigName="Release"/>
+      <Project Name="project14" ConfigName="Release"/>
+      <Project Name="Project15" ConfigName="Release"/>
+      <Project Name="project16" ConfigName="Release"/>
+      <Project Name="Project17" ConfigName="Release"/>
+      <Project Name="Project18" ConfigName="Release"/>
+      <Project Name="Project19" ConfigName="Release"/>
+      <Project Name="Project20" ConfigName="Release"/>
+      <Project Name="Project21" ConfigName="Release"/>
+      <Project Name="Project22" ConfigName="Release"/>
+      <Project Name="Project23" ConfigName="Release"/>
+      <Project Name="Project24" ConfigName="Release"/>
+      <Project Name="Project25" ConfigName="Release"/>
+      <Project Name="Project26" ConfigName="Release"/>
+      <Project Name="Project26" ConfigName="Release"/>
+      <Project Name="Project27" ConfigName="Release"/>
+      <Project Name="Project28" ConfigName="Release"/>
+      <Project Name="Project29" ConfigName="Release"/>
+      <Project Name="Project30" ConfigName="Release"/>
+      <Project Name="Project31" ConfigName="Release"/>
+      <Project Name="Project32" ConfigName="Release"/>
+      <Project Name="Project32" ConfigName="Release"/>
+      <Project Name="Project33" ConfigName="Release"/>
+      <Project Name="Project34" ConfigName="Release"/>
+      <Project Name="Project35" ConfigName="Release"/>
+      <Project Name="Project36" ConfigName="Release"/>
+      <Project Name="Project37" ConfigName="Release"/>
+      <Project Name="Project38" ConfigName="Release"/>
+      <Project Name="Project39" ConfigName="Release"/>
+      <Project Name="Project40" ConfigName="Release"/>
+      <Project Name="Project41" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

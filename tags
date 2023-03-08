@@ -1,20 +1,14 @@
-main	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project10\main.cpp	/^int main()$/;"	function	line:5	signature:()	returns:int 
-endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project10\main.cpp	/^	cout << "Hello, welcome to Frank's Carpet Cleaning Service" << endl;$/;"	local	line:7	type:cout
-endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project10\main.cpp	/^    cout << "\\nHow many small rooms would you like cleaned? " << endl;$/;"	local	line:8	type:cout
-number_of_small_rooms	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project10\main.cpp	/^    int number_of_small_rooms {0};$/;"	local	line:9
-number_of_small_rooms	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project10\main.cpp	/^    cin >> number_of_small_rooms;$/;"	local	line:10	type:cin
-endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project10\main.cpp	/^    cout << "\\nHow many large rooms would you like cleaned? " << endl;$/;"	local	line:12	type:cout
-number_of_large_rooms	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project10\main.cpp	/^    int number_of_large_rooms {0};$/;"	local	line:13
-number_of_large_rooms	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project10\main.cpp	/^    cin >> number_of_large_rooms;$/;"	local	line:14	type:cin
-price_per_small_room	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project10\main.cpp	/^    const double price_per_small_room {25.0};$/;"	local	line:16
-price_per_large_room	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project10\main.cpp	/^    const double price_per_large_room {35.0};$/;"	local	line:17
-sales_tax	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project10\main.cpp	/^    const double sales_tax {0.06};$/;"	local	line:18
-estimate_expiry	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project10\main.cpp	/^    const int estimate_expiry {30};$/;"	local	line:19
-endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project10\main.cpp	/^    cout << "\\nEstimate for carpet cleaning service" << endl;$/;"	local	line:21	type:cout
-endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project10\main.cpp	/^    cout << "Number of small rooms: " << number_of_small_rooms << endl;$/;"	local	line:22	type:coutnumber_of_small_rooms
-endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project10\main.cpp	/^    cout << "Number of large rooms: " << number_of_large_rooms << endl;$/;"	local	line:23	type:coutnumber_of_large_rooms
-endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project10\main.cpp	/^    cout << "Price per small room: $" << price_per_small_room << endl;$/;"	local	line:24	type:coutprice_per_small_room
-endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project10\main.cpp	/^    cout << "Price per large room: $" << price_per_large_room << endl;$/;"	local	line:25	type:coutprice_per_large_room
-endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project10\main.cpp	/^    cout << "Tax: $" << ((price_per_small_room * number_of_small_rooms) + (price_per_large_room * number_of_large_rooms)) * sales_tax << endl;$/;"	local	line:27	type:sales_tax
-endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project10\main.cpp	/^    cout << "===================================" << endl;$/;"	local	line:28	type:cout
-endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project10\main.cpp	/^    cout << "This estimate is valid for " << estimate_expiry << " days" << endl;$/;"	local	line:30	type:coutestimate_expiry
+main	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project41\main.cpp	/^int main() {$/;"	function	line:6	signature:()	returns:int 
+alphabet	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project41\main.cpp	/^    string alphabet {"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"};$/;"	local	line:8	type:string
+key	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project41\main.cpp	/^    string key {"XZNLWEBGJHQDYVTKFUOMPCIASRxznlwebgjhqdyvtkfuompciasr"};$/;"	local	line:9	type:string
+secret_message	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project41\main.cpp	/^    string secret_message {};$/;"	local	line:10	type:string
+encrypted_secret_message	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project41\main.cpp	/^    string encrypted_secret_message {};$/;"	local	line:11	type:string
+endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project41\main.cpp	/^    cout << "\\nEncrypring message..." << endl;$/;"	local	line:16	type:cout
+position	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project41\main.cpp	/^        size_t position = alphabet.find(c);$/;"	local	line:34	type:size_t
+new_char	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project41\main.cpp	/^            char new_char {key.at(position)};$/;"	local	line:36
+endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project41\main.cpp	/^    cout << "\\nEncrypted message: " << encrypted_secret_message << endl;$/;"	local	line:43	type:coutencrypted_secret_message
+decrypted_message	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project41\main.cpp	/^    string decrypted_message {};$/;"	local	line:45	type:string
+endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project41\main.cpp	/^    cout << "\\nDecrypting message..." << endl;$/;"	local	line:46	type:cout
+position	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project41\main.cpp	/^        size_t position = key.find(c);$/;"	local	line:49	type:size_t
+new_char	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project41\main.cpp	/^            char  new_char{alphabet.at(position) };$/;"	local	line:51
+endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project41\main.cpp	/^        cout << endl;$/;"	local	line:57	type:cout

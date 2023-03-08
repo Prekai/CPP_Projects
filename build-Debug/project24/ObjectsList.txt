@@ -1,0 +1,1 @@
+../build-Debug/project24/main.cpp.o   

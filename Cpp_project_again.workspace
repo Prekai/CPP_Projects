@@ -40,7 +40,9 @@
   <Project Name="Project38" Path="Project38/Project38.project" Active="No"/>
   <Project Name="Project39" Path="Project39/Project39.project" Active="No"/>
   <Project Name="Project40" Path="Project40/Project40.project" Active="No"/>
-  <Project Name="Project41" Path="Project41/Project41.project" Active="Yes"/>
+  <Project Name="Project41" Path="Project41/Project41.project" Active="No"/>
+  <Project Name="Project41" Path="Project41/Project41.project" Active="No"/>
+  <Project Name="Project42" Path="Project42/Project42.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -87,6 +89,8 @@
       <Project Name="Project39" ConfigName="Debug"/>
       <Project Name="Project40" ConfigName="Debug"/>
       <Project Name="Project41" ConfigName="Debug"/>
+      <Project Name="Project41" ConfigName="Debug"/>
+      <Project Name="Project42" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -133,6 +137,8 @@
       <Project Name="Project39" ConfigName="Release"/>
       <Project Name="Project40" ConfigName="Release"/>
       <Project Name="Project41" ConfigName="Release"/>
+      <Project Name="Project41" ConfigName="Release"/>
+      <Project Name="Project42" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

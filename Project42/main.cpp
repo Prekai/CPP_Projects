@@ -45,7 +45,7 @@ int main() {
 //        for (int j {1}; j<=i; ++j){
 //            cout << "* ";
 //        }
-//        cout << "\n";    
+//        cout << i*2-1 << "\n";    
 //    }
     
     
@@ -91,21 +91,71 @@ int main() {
 //   
 
 
-    //  inverted rows
+//    //  inverted rows with *
+//    int rows {};
+//    cout << "enter number of rows: ";
+//    cin >> rows;
+//    
+//    for(int i {rows}; i>0; --i){
+//        for(int j {i}; j>0; --j){
+//            cout << "* ";
+//        }
+//        cout << endl;    
+//    }
+    
+//    // inverted rows count downward by colums
+//    int rows {};
+//    cout << "enter number of rows: ";
+//    cin >> rows;
+//    
+//    for(int i {rows}; i>0; --i){
+//        for(int j {i}; j>0; --j){
+//            cout << j << " ";
+//        }
+//        cout << endl;    
+//    }    
+    
+//    //inverted rows, count downward every rows
+//    int rows {};
+//    cout << "enter number of rows: ";
+//    cin >> rows;
+//    
+//    for(int i {rows}; i>0; --i){
+//        for(int j {i}; j>0; --j){
+//            cout << i << " ";
+//        }
+//        cout << endl;    
+//    }
+
+//    //decreasing colums
+//    int rows {};
+//    cout << "enter number of rows: ";
+//    cin >> rows;
+//    
+//    for(int i {rows}; 0<i; --i){
+//        for(int j {1}; j<=i; ++j){
+//            cout << j << " ";
+//        }
+//        cout << endl;    
+//    }
+
+
+    // pyramid with *
     int rows {};
     cout << "enter number of rows: ";
     cin >> rows;
-    
-    for(int i {rows}; i>0; --i){
-        for(int j {i}; j>0; --j){
-            cout << j << " ";
+
+
+    for(int k{1}, i {rows}; 0<i; --i, ++k){
+        for(int j {1}; j<=i; ++j){
+            cout << "  ";
         }
-        cout << endl;    
+        
+        for(int n {0}; n<(k*2-1);++n){
+            cout << "* ";}
+            cout << endl;
     }
-    
-    
-    
-    
+
 	cout << endl;
 	return 0;
 }

@@ -140,21 +140,41 @@ int main() {
 //    }
 
 
-    // pyramid with *
-    int rows {};
-    cout << "enter number of rows: ";
+//    // pyramid with *
+//    int rows {};
+//    cout << "enter number of rows: ";
+//    cin >> rows;
+//
+//
+//    for(int k{1}, i {rows}; 0<i; --i, ++k){
+//        for(int j {1}; j<=i; ++j){
+//            cout << "  ";
+//        }
+//        
+//        for(int n {0}; n<(k*2-1);++n){
+//            cout << "* ";}
+//            cout << endl;
+//    }
+
+    // pyramid with * different approach
+    int space {0}, rows{0};
+    cout << "Enter number of rows: ";
     cin >> rows;
-
-
-    for(int k{1}, i {rows}; 0<i; --i, ++k){
-        for(int j {1}; j<=i; ++j){
+    
+    for(int i {1}, k {0}; i <=rows; ++i, k=0){
+        for(space = 1; space <=rows-i; ++space){
             cout << "  ";
         }
-        
-        for(int n {0}; n<(k*2-1);++n){
-            cout << "* ";}
-            cout << endl;
+    
+        while(k != 2*i-1) {
+            cout << "* ";
+            ++k;
+        }
+        cout << endl;
     }
+  
+    
+
 
 	cout << endl;
 	return 0;

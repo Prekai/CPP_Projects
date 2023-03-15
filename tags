@@ -1,5 +1,5 @@
 main	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project42\main.cpp	/^int main() {$/;"	function	line:14	signature:()	returns:int 
-rows	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project42\main.cpp	/^    int rows {};$/;"	local	line:144
-rows	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project42\main.cpp	/^    cin >> rows;$/;"	local	line:146	type:cin
-endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project42\main.cpp	/^            cout << endl;$/;"	local	line:156	type:cout
-endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project42\main.cpp	/^	cout << endl;$/;"	local	line:159	type:cout
+space	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project42\main.cpp	/^    int space {0}, rows{0};$/;"	local	line:160
+rows	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project42\main.cpp	/^    cin >> rows;$/;"	local	line:162	type:cin
+endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project42\main.cpp	/^        cout << endl;$/;"	local	line:173	type:cout
+endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project42\main.cpp	/^	cout << endl;$/;"	local	line:179	type:cout

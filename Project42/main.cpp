@@ -156,23 +156,31 @@ int main() {
 //            cout << endl;
 //    }
 
-    // pyramid with * different approach
-    int space {0}, rows{0};
-    cout << "Enter number of rows: ";
-    cin >> rows;
+//    // pyramid with * different approach, better solution and last row didn't start with a space
+//    int space {0}, rows{0};
+//    cout << "Enter number of rows: ";
+//    cin >> rows;
+//    
+//    for(int i {1}, k {0}; i <=rows; ++i, k=0){
+//        for(space = 1; space <=rows-i; ++space){
+//            cout << "  ";
+//        }
+//    
+//        while(k != 2*i-1) {
+//            cout << "* ";
+//            ++k;
+//        }
+//        cout << endl;
+//    }
+
+
+    //number pyramid
+    //        1
+    //      2 3 2
+    //    3 4 5 4 3
+    //  4 5 6 7 6 5 4
+    //5 6 7 8 9 8 7 6 5
     
-    for(int i {1}, k {0}; i <=rows; ++i, k=0){
-        for(space = 1; space <=rows-i; ++space){
-            cout << "  ";
-        }
-    
-        while(k != 2*i-1) {
-            cout << "* ";
-            ++k;
-        }
-        cout << endl;
-    }
-  
     
 
 

@@ -1,9 +1,0 @@
-main	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project42\main.cpp	/^int main() {$/;"	function	line:14	signature:()	returns:int 
-rows	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project42\main.cpp	/^    int rows, count = 0, count1 = 0, k = 0;$/;"	local	line:190
-count	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project42\main.cpp	/^    int rows, count = 0, count1 = 0, k = 0;$/;"	local	line:190
-count1	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project42\main.cpp	/^    int rows, count = 0, count1 = 0, k = 0;$/;"	local	line:190
-k	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project42\main.cpp	/^    int rows, count = 0, count1 = 0, k = 0;$/;"	local	line:190
-rows	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project42\main.cpp	/^    cin >> rows;$/;"	local	line:193	type:cin
-k	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project42\main.cpp	/^                cout << i+k << " ";$/;"	local	line:203	type:couti
-endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project42\main.cpp	/^        cout << endl;$/;"	local	line:214	type:cout
-endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project42\main.cpp	/^	cout << endl;$/;"	local	line:220	type:cout

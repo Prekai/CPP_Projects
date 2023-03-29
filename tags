@@ -1,7 +1,0 @@
-main	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project43\main.cpp	/^int main()$/;"	function	line:6	signature:()	returns:int 
-num	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project43\main.cpp	/^    double num {};$/;"	local	line:8
-num	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project43\main.cpp	/^    cin >> num;$/;"	local	line:11	type:cin
-power	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project43\main.cpp	/^    double power {};$/;"	local	line:23
-num	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project43\main.cpp	/^    cout << "\\nEnter a power to raise " << num << " to: ";$/;"	local	line:24	type:cout
-power	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project43\main.cpp	/^    cin >> power;$/;"	local	line:25	type:cin
-endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project43\main.cpp	/^    cout << endl;$/;"	local	line:29	type:cout

@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Cpp_project_again.workspace">
-  <int Value="1" Name="m_selectedTab"/>
+  <int Value="0" Name="m_selectedTab"/>
   <wxString Value="C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Cpp_project_again.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project43\main.cpp" Name="FileName"/>
-      <int Value="10" Name="FirstVisibleLine"/>
-      <int Value="23" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project44\main.cpp" Name="FileName"/>
+      <wxString Value="C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project45\main.cpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="20" Name="CurrentLine"/>
+      <int Value="16" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>

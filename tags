@@ -1,13 +1,8 @@
-pi	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project45\main.cpp	/^const double pi {3.14159};$/;"	variable	line:5
-calc_area_cicle	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project45\main.cpp	/^double calc_area_cicle(double radius)$/;"	function	line:6	signature:(double radius)	returns:double 
-calc_volume_cylinder	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project45\main.cpp	/^double calc_volume_cylinder(double radius, double height) {$/;"	function	line:12	signature:(double radius, double height)	returns:double 
-area_circle	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project45\main.cpp	/^void area_circle()$/;"	function	line:17	signature:()	returns:void 
-radius	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project45\main.cpp	/^        double radius{};$/;"	local	line:19
-radius	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project45\main.cpp	/^        cin >> radius;$/;"	local	line:21	type:cin
-volume_cylinder	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project45\main.cpp	/^void volume_cylinder (){$/;"	function	line:25	signature:()	returns:void 
-radius	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project45\main.cpp	/^    double radius {};$/;"	local	line:26
-height	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project45\main.cpp	/^    double height {};$/;"	local	line:27
-radius	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project45\main.cpp	/^    cin >> radius;$/;"	local	line:29	type:cin
-height	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project45\main.cpp	/^    cin >> height;$/;"	local	line:31	type:cin
-main	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project45\main.cpp	/^int main()$/;"	function	line:37	signature:()	returns:int 
-endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project45\main.cpp	/^	cout << endl;$/;"	local	line:42	type:cout
+param_test	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project46\main.cpp	/^void param_test (int formal);$/;"	prototype	line:5	signature:(int formal)	returns:void 
+main	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project46\main.cpp	/^int main () {$/;"	function	line:7	signature:()	returns:int 
+actual	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project46\main.cpp	/^   int actual {50};$/;"	local	line:8
+endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project46\main.cpp	/^   cout << actual << endl;     \/\/50$/;"	local	line:9	type:coutactual
+endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project46\main.cpp	/^   cout << actual << endl;     \/\/50 - did not change$/;"	local	line:11	type:coutactual
+param_test	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project46\main.cpp	/^void param_test (int formal) { \/\/ formal is a copy of actual$/;"	function	line:16	signature:(int formal)	returns:void 
+endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project46\main.cpp	/^   cout << formal << endl;     \/\/ 50$/;"	local	line:17	type:coutformal
+endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project46\main.cpp	/^   cout << formal << endl;     \/\/100$/;"	local	line:19	type:coutformal

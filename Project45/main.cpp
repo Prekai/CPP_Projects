@@ -3,10 +3,22 @@
 using namespace std;
 
 const double pi {3.14159};
-double calc_area_cicle(double radius)
+double calc_volume_cylinder(double radius, double height);
+double calc_area_cicle(double radius);
+void area_circle();
+void volume_cylinder ();
+
+int main()
 {
+    area_circle();
+    volume_cylinder();
+    
+	cout << endl;
+	return 0;
+}
+
+double calc_area_cicle(double radius) {
    return pi * radius * radius;
-   
 }
 
 double calc_volume_cylinder(double radius, double height) {
@@ -30,15 +42,5 @@ void volume_cylinder (){
     cout << "\nEnter the height of the cylinder: ";
     cin >> height;
     
-    cout << "The volume of a cylinder with radius " << radius << " and height " << height << " is " << calc_volume_cylinder(radius, height) << endl; 
-    
-}
-
-int main()
-{
-    area_circle();
-    volume_cylinder();
-    
-	cout << endl;
-	return 0;
+    cout << "The volume of a cylinder with radius " << radius << " and height " << height << " is " << calc_volume_cylinder(radius, height) << endl;    
 }

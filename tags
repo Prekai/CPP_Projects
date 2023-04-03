@@ -1,8 +1,23 @@
-param_test	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project46\main.cpp	/^void param_test (int formal);$/;"	prototype	line:5	signature:(int formal)	returns:void 
-main	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project46\main.cpp	/^int main () {$/;"	function	line:7	signature:()	returns:int 
-actual	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project46\main.cpp	/^   int actual {50};$/;"	local	line:8
-endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project46\main.cpp	/^   cout << actual << endl;     \/\/50$/;"	local	line:9	type:coutactual
-endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project46\main.cpp	/^   cout << actual << endl;     \/\/50 - did not change$/;"	local	line:11	type:coutactual
-param_test	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project46\main.cpp	/^void param_test (int formal) { \/\/ formal is a copy of actual$/;"	function	line:16	signature:(int formal)	returns:void 
-endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project46\main.cpp	/^   cout << formal << endl;     \/\/ 50$/;"	local	line:17	type:coutformal
-endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project46\main.cpp	/^   cout << formal << endl;     \/\/100$/;"	local	line:19	type:coutformal
+pass_by_value1	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project47\main.cpp	/^void pass_by_value1(int num);$/;"	prototype	line:7	signature:(int num)	returns:void 
+pass_by_value2	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project47\main.cpp	/^void pass_by_value2(string s);$/;"	prototype	line:8	signature:(string s)	returns:void 
+pass_by_value3	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project47\main.cpp	/^void pass_by_value3(vector<string> v);$/;"	prototype	line:9	signature:(vector<string> v)	returns:void 
+print_vector	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project47\main.cpp	/^void print_vector(vector<string> v);$/;"	prototype	line:10	signature:(vector<string> v)	returns:void 
+pass_by_value1	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project47\main.cpp	/^void pass_by_value1(int num) {$/;"	function	line:12	signature:(int num)	returns:void 
+pass_by_value2	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project47\main.cpp	/^void pass_by_value2(string s) {$/;"	function	line:16	signature:(string s)	returns:void 
+pass_by_value3	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project47\main.cpp	/^void pass_by_value3(vector<string> v){$/;"	function	line:20	signature:(vector<string> v)	returns:void 
+clear	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project47\main.cpp	/^    v.clear();$/;"	prototype	line:21	signature:()	returns:v 
+print_vector	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project47\main.cpp	/^void print_vector(vector<string>v) {$/;"	function	line:24	signature:(vector<string>v)	returns:void 
+s	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project47\main.cpp	/^        cout << s << " ";$/;"	local	line:26	type:cout
+endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project47\main.cpp	/^    cout << endl;$/;"	local	line:27	type:cout
+main	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project47\main.cpp	/^int main() {$/;"	function	line:30	signature:()	returns:int 
+num	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project47\main.cpp	/^    int num {10};$/;"	local	line:31
+another_num	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project47\main.cpp	/^    int another_num{20};$/;"	local	line:32
+endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project47\main.cpp	/^    cout << "num before calling pass_by_value1: " << num << endl;$/;"	local	line:34	type:coutnum
+endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project47\main.cpp	/^    cout << "num after calling pass_by_value1: " << num << endl;$/;"	local	line:36	type:coutnum
+endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project47\main.cpp	/^    cout << "\\nanother_num before calling pass_by_value1: " << another_num << endl;$/;"	local	line:38	type:coutanother_num
+endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project47\main.cpp	/^    cout << "another_num after calling pass_by_value1: " << another_num << endl;$/;"	local	line:40	type:coutanother_num
+name	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project47\main.cpp	/^    string name {"Frank"};$/;"	local	line:42	type:string
+endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project47\main.cpp	/^    cout << "\\nanother_num before calling pass_by_value2: " << name << endl;$/;"	local	line:43	type:coutname
+endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project47\main.cpp	/^    cout << "another_num after calling pass_by_value2: " << name << endl;$/;"	local	line:45	type:coutname
+stooges	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project47\main.cpp	/^    vector<string> stooges {"Larry", "Moe", "Curly"};$/;"	local	line:47	type:vector
+endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project47\main.cpp	/^	cout << endl;$/;"	local	line:54	type:cout

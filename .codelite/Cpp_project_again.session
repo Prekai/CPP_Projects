@@ -4,9 +4,16 @@
   <wxString Value="C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Cpp_project_again.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project47\main.cpp" Name="FileName"/>
-      <int Value="33" Name="FirstVisibleLine"/>
-      <int Value="37" Name="CurrentLine"/>
+      <wxString Value="C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project48\main.cpp" Name="FileName"/>
+      <int Value="13" Name="FirstVisibleLine"/>
+      <int Value="26" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\codechef\main.cpp" Name="FileName"/>
+      <int Value="32" Name="FirstVisibleLine"/>
+      <int Value="42" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>

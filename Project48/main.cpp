@@ -18,7 +18,7 @@ void greeting(string name, string prefix, string suffix){
 
 int main() {
     double cost {0};
-    cost = calc_cost(100.0, 00.8, 4.25);
+    cost = calc_cost(100.0, 0.08, 4.25);
     
     cout << fixed << setprecision(2);
     cout << "Cost is: " << cost << endl;

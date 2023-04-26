@@ -54,3 +54,47 @@ using namespace std;
 //	}
 //	return 0;
 //}
+
+//Squats
+//#include <iostream>
+//using namespace std;
+//
+//int main() {
+//	// your code goes here
+//	int T {0}, X {0}, b {15};
+//	
+//	cin >> T;
+//	
+//	for (;0<T; --T) {
+//	    cin >> X;
+//	    cout << X*b << endl;
+//	}
+//	return 0;
+//}
+
+
+//squats solved by function
+void squats ();
+void sets ();
+
+int main() {
+	
+    sets ();
+    
+	return 0;
+}
+
+    int X {0}, Y {0}, B {15};
+    
+    
+    void squats () {
+        cin >> Y;
+        cout << Y*B << endl;
+    }    
+    
+    void sets (){
+        cin >> X;
+        for (;0<X;--X){
+            squats();
+        }
+    }

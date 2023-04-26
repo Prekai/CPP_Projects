@@ -48,8 +48,9 @@
   <Project Name="Project45" Path="Project45/Project45.project" Active="No"/>
   <Project Name="Project46" Path="Project46/Project46.project" Active="No"/>
   <Project Name="Project47" Path="Project47/Project47.project" Active="No"/>
-  <Project Name="Project48" Path="Project48/Project48.project" Active="Yes"/>
+  <Project Name="Project48" Path="Project48/Project48.project" Active="No"/>
   <Project Name="CodeChef" Path="codechef/codechef.project" Active="No"/>
+  <Project Name="Project49" Path="Project499/Project499.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -105,6 +106,7 @@
       <Project Name="Project47" ConfigName="Debug"/>
       <Project Name="Project48" ConfigName="Debug"/>
       <Project Name="CodeChef" ConfigName="Debug"/>
+      <Project Name="Project49" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -160,6 +162,7 @@
       <Project Name="Project47" ConfigName="Release"/>
       <Project Name="Project48" ConfigName="Release"/>
       <Project Name="CodeChef" ConfigName="Release"/>
+      <Project Name="Project49" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

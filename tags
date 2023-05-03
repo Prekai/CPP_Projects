@@ -1,0 +1,12 @@
+calc_cost	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project48\main.cpp	/^double calc_cost(double base_cost = 100, double tax_rate = 0.06, double shipping = 3.50);$/;"	prototype	line:7	signature:(double base_cost = 100, double tax_rate = 0.06, double shipping = 3.50)	returns:double 
+greeting	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project48\main.cpp	/^void greeting(string name, string prefix = "Mr." ,string suffix = "");$/;"	prototype	line:9	signature:(string name, string prefix = "Mr." ,string suffix = "")	returns:void 
+calc_cost	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project48\main.cpp	/^double calc_cost(double base_cost, double tax_rate, double shipping) {$/;"	function	line:11	signature:(double base_cost, double tax_rate, double shipping)	returns:double 
+greeting	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project48\main.cpp	/^void greeting(string name, string prefix, string suffix){$/;"	function	line:15	signature:(string name, string prefix, string suffix)	returns:void 
+endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project48\main.cpp	/^    cout << "Hello " << prefix + " " + name + " " + suffix << endl;$/;"	local	line:16	type:coutprefixnamesuffix
+main	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project48\main.cpp	/^int main() {$/;"	function	line:19	signature:()	returns:int 
+cost	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project48\main.cpp	/^    double cost {0};$/;"	local	line:20
+endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project48\main.cpp	/^    cout << "Cost is: " << cost << endl;$/;"	local	line:24	type:coutcost
+endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project48\main.cpp	/^    cout << "Cost is: " << cost << endl;$/;"	local	line:27	type:coutcost
+endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project48\main.cpp	/^    cout << "Cost is: " << cost << endl;$/;"	local	line:30	type:coutcost
+endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project48\main.cpp	/^    cout << "Cost is: " << cost << endl;$/;"	local	line:33	type:coutcost
+endl	C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project48\main.cpp	/^    cout << endl;$/;"	local	line:41	type:cout

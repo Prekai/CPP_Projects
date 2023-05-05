@@ -11,9 +11,9 @@
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project499\main.cpp" Name="FileName"/>
-      <int Value="32" Name="FirstVisibleLine"/>
-      <int Value="45" Name="CurrentLine"/>
+      <wxString Value="C:\Users\arnot\Desktop\CppProject\NewCPPproject\Cpp_project_again\Project50\main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="18" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
